@@ -1,0 +1,40 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  BorderIcons = [biMinimize, biMaximize]
+  BorderStyle = Single
+  Caption = #1042#1099#1073#1077#1088#1080#1090#1077' '#1085#1086#1084#1077#1088' '#1079#1072#1076#1072#1085#1080#1103
+  ClientHeight = 60
+  ClientWidth = 624
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ComboBox1: TComboBox
+    Position.Y = 19.000000000000000000
+    Size.Width = 624.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #1053#1072#1079#1072#1076
+    TextSettings.Trimming = None
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 312.000000000000000000
+    Size.Width = 312.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #1042#1099#1073#1088#1072#1090#1100
+    TextSettings.Trimming = None
+    OnClick = Button2Click
+  end
+end

@@ -1,0 +1,419 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  ClientHeight = 684
+  ClientWidth = 1032
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object MainMenu1: TMainMenu
+    Left = 480
+    Top = 56
+    object MenuItem17: TMenuItem
+      Text = #1040#1083#1075#1077#1073#1088#1072
+      object MenuItem1: TMenuItem
+        Locked = True
+        Text = '6 '#1082#1083#1072#1089#1089
+        object MenuItem5: TMenuItem
+          Locked = True
+          Text = '6 '#1040
+          OnClick = MenuItem5Click
+        end
+        object MenuItem6: TMenuItem
+          Locked = True
+          Text = '6 '#1041
+          OnClick = MenuItem6Click
+        end
+        object MenuItem7: TMenuItem
+          Locked = True
+          Text = '6 '#1042
+          OnClick = MenuItem7Click
+        end
+      end
+      object MenuItem2: TMenuItem
+        Locked = True
+        Text = '7 '#1082#1083#1072#1089#1089
+        object MenuItem8: TMenuItem
+          Locked = True
+          Text = '7 '#1040
+          OnClick = MenuItem8Click
+        end
+        object MenuItem9: TMenuItem
+          Locked = True
+          Text = '7 '#1041
+          OnClick = MenuItem9Click
+        end
+        object MenuItem16: TMenuItem
+          Locked = True
+          Text = '7 '#1042
+          OnClick = MenuItem16Click
+        end
+      end
+      object MenuItem3: TMenuItem
+        Locked = True
+        Text = '8 '#1082#1083#1072#1089#1089
+        object MenuItem10: TMenuItem
+          Locked = True
+          Text = '8 '#1040
+          OnClick = MenuItem10Click
+        end
+        object MenuItem11: TMenuItem
+          Locked = True
+          Text = '8 '#1041
+          OnClick = MenuItem11Click
+        end
+        object MenuItem15: TMenuItem
+          Locked = True
+          Text = '8 '#1042
+          OnClick = MenuItem15Click
+        end
+      end
+      object MenuItem4: TMenuItem
+        Locked = True
+        Text = '9 '#1082#1083#1072#1089#1089
+        object MenuItem12: TMenuItem
+          Locked = True
+          Text = '9 '#1040
+          OnClick = MenuItem12Click
+        end
+        object MenuItem13: TMenuItem
+          Locked = True
+          Text = '9 '#1041
+          OnClick = MenuItem13Click
+        end
+        object MenuItem14: TMenuItem
+          Locked = True
+          Text = '9 '#1042
+          OnClick = MenuItem14Click
+        end
+      end
+    end
+    object MenuItem18: TMenuItem
+      Text = #1056#1091#1089#1089#1082#1080#1081' '#1103#1079#1099#1082
+      object MenuItem19: TMenuItem
+        Locked = True
+        Text = '6 '#1082#1083#1072#1089#1089
+        object MenuItem20: TMenuItem
+          Locked = True
+          Text = '6 '#1040
+          OnClick = MenuItem20Click
+        end
+        object MenuItem21: TMenuItem
+          Locked = True
+          Text = '6 '#1041
+          OnClick = MenuItem21Click
+        end
+        object MenuItem22: TMenuItem
+          Locked = True
+          Text = '6 '#1042
+          OnClick = MenuItem22Click
+        end
+      end
+      object MenuItem23: TMenuItem
+        Locked = True
+        Text = '7 '#1082#1083#1072#1089#1089
+        object MenuItem24: TMenuItem
+          Locked = True
+          Text = '7 '#1040
+          OnClick = MenuItem24Click
+        end
+        object MenuItem25: TMenuItem
+          Locked = True
+          Text = '7 '#1041
+          OnClick = MenuItem25Click
+        end
+        object MenuItem26: TMenuItem
+          Locked = True
+          Text = '7 '#1042
+          OnClick = MenuItem26Click
+        end
+      end
+      object MenuItem27: TMenuItem
+        Locked = True
+        Text = '8 '#1082#1083#1072#1089#1089
+        object MenuItem28: TMenuItem
+          Locked = True
+          Text = '8 '#1040
+          OnClick = MenuItem28Click
+        end
+        object MenuItem29: TMenuItem
+          Locked = True
+          Text = '8 '#1041
+          OnClick = MenuItem29Click
+        end
+        object MenuItem30: TMenuItem
+          Locked = True
+          Text = '8 '#1042
+          OnClick = MenuItem30Click
+        end
+      end
+      object MenuItem31: TMenuItem
+        Locked = True
+        Text = '9 '#1082#1083#1072#1089#1089
+        object MenuItem32: TMenuItem
+          Locked = True
+          Text = '9 '#1040
+          OnClick = MenuItem32Click
+        end
+        object MenuItem33: TMenuItem
+          Locked = True
+          Text = '9 '#1041
+          OnClick = MenuItem33Click
+        end
+        object MenuItem34: TMenuItem
+          Locked = True
+          Text = '9 '#1042
+          OnClick = MenuItem34Click
+        end
+      end
+    end
+    object MenuItem35: TMenuItem
+      Text = #1051#1080#1090#1077#1088#1072#1090#1091#1088#1072
+      object MenuItem36: TMenuItem
+        Locked = True
+        Text = '6 '#1082#1083#1072#1089#1089
+        object MenuItem37: TMenuItem
+          Locked = True
+          Text = '6 '#1040
+          OnClick = MenuItem37Click
+        end
+        object MenuItem38: TMenuItem
+          Locked = True
+          Text = '6 '#1041
+          OnClick = MenuItem38Click
+        end
+        object MenuItem39: TMenuItem
+          Locked = True
+          Text = '6 '#1042
+          OnClick = MenuItem39Click
+        end
+      end
+      object MenuItem40: TMenuItem
+        Locked = True
+        Text = '7 '#1082#1083#1072#1089#1089
+        object MenuItem41: TMenuItem
+          Locked = True
+          Text = '7 '#1040
+          OnClick = MenuItem41Click
+        end
+        object MenuItem42: TMenuItem
+          Locked = True
+          Text = '7 '#1041
+          OnClick = MenuItem42Click
+        end
+        object MenuItem43: TMenuItem
+          Locked = True
+          Text = '7 '#1042
+          OnClick = MenuItem43Click
+        end
+      end
+      object MenuItem44: TMenuItem
+        Locked = True
+        Text = '8 '#1082#1083#1072#1089#1089
+        object MenuItem45: TMenuItem
+          Locked = True
+          Text = '8 '#1040
+          OnClick = MenuItem45Click
+        end
+        object MenuItem46: TMenuItem
+          Locked = True
+          Text = '8 '#1041
+          OnClick = MenuItem46Click
+        end
+        object MenuItem47: TMenuItem
+          Locked = True
+          Text = '8 '#1042
+          OnClick = MenuItem47Click
+        end
+      end
+      object MenuItem48: TMenuItem
+        Locked = True
+        Text = '9 '#1082#1083#1072#1089#1089
+        object MenuItem49: TMenuItem
+          Locked = True
+          Text = '9 '#1040
+          OnClick = MenuItem49Click
+        end
+        object MenuItem50: TMenuItem
+          Locked = True
+          Text = '9 '#1041
+          OnClick = MenuItem50Click
+        end
+        object MenuItem51: TMenuItem
+          Locked = True
+          Text = '9 '#1042
+          OnClick = MenuItem51Click
+        end
+      end
+    end
+    object MenuItem52: TMenuItem
+      Text = #1048#1089#1090#1086#1088#1080#1103
+      object MenuItem53: TMenuItem
+        Locked = True
+        Text = '6 '#1082#1083#1072#1089#1089
+        object MenuItem54: TMenuItem
+          Locked = True
+          Text = '6 '#1040
+          OnClick = MenuItem54Click
+        end
+        object MenuItem55: TMenuItem
+          Locked = True
+          Text = '6 '#1041
+          OnClick = MenuItem55Click
+        end
+        object MenuItem56: TMenuItem
+          Locked = True
+          Text = '6 '#1042
+          OnClick = MenuItem56Click
+        end
+      end
+      object MenuItem57: TMenuItem
+        Locked = True
+        Text = '7 '#1082#1083#1072#1089#1089
+        object MenuItem58: TMenuItem
+          Locked = True
+          Text = '7 '#1040
+          OnClick = MenuItem58Click
+        end
+        object MenuItem59: TMenuItem
+          Locked = True
+          Text = '7 '#1041
+          OnClick = MenuItem59Click
+        end
+        object MenuItem60: TMenuItem
+          Locked = True
+          Text = '7 '#1042
+          OnClick = MenuItem60Click
+        end
+      end
+      object MenuItem61: TMenuItem
+        Locked = True
+        Text = '8 '#1082#1083#1072#1089#1089
+        object MenuItem62: TMenuItem
+          Locked = True
+          Text = '8 '#1040
+          OnClick = MenuItem62Click
+        end
+        object MenuItem63: TMenuItem
+          Locked = True
+          Text = '8 '#1041
+          OnClick = MenuItem63Click
+        end
+        object MenuItem64: TMenuItem
+          Locked = True
+          Text = '8 '#1042
+          OnClick = MenuItem64Click
+        end
+      end
+      object MenuItem65: TMenuItem
+        Locked = True
+        Text = '9 '#1082#1083#1072#1089#1089
+        object MenuItem66: TMenuItem
+          Locked = True
+          Text = '9 '#1040
+          OnClick = MenuItem66Click
+        end
+        object MenuItem67: TMenuItem
+          Locked = True
+          Text = '9 '#1041
+          OnClick = MenuItem67Click
+        end
+        object MenuItem68: TMenuItem
+          Locked = True
+          Text = '9 '#1042
+          OnClick = MenuItem68Click
+        end
+      end
+    end
+    object MenuItem69: TMenuItem
+      Text = #1042#1089#1077' '#1091#1095#1077#1085#1080#1082#1080
+      OnClick = MenuItem69Click
+    end
+  end
+  object Grid1: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 1032.000000000000000000
+    Size.Height = 684.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    RowCount = 12
+    Viewport.Width = 1028.000000000000000000
+    Viewport.Height = 659.000000000000000000
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'SELECT * FROM Score')
+    Left = 568
+    Top = 152
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 564
+    Top = 53
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'FIO'
+          ReadOnly = True
+          Header = #1060#1048#1054
+          TextWidth = 40
+        end
+        item
+          MemberName = 'Score'
+          ReadOnly = True
+          Header = #1054#1094#1077#1085#1082#1072
+          TextWidth = 10
+        end
+        item
+          MemberName = 'Answer'
+          ReadOnly = True
+          Header = #1042#1086#1087#1088#1086#1089#1099' '#1080' '#1086#1090#1074#1077#1090#1099
+          TextWidth = 137
+        end
+        item
+          MemberName = 'Subject'
+          ReadOnly = True
+          Header = #1055#1088#1077#1076#1084#1077#1090
+          TextWidth = 20
+        end
+        item
+          MemberName = 'Class'
+          Header = #1050#1083#1072#1089#1089
+          TextWidth = 5
+        end
+        item
+          MemberName = 'Letter'
+          Header = #1041#1091#1082#1074#1072
+          TextWidth = 5
+        end>
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = ADOQuery1
+    ScopeMappings = <>
+    Left = 568
+    Top = 200
+  end
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Passwords.mdb;Persi' +
+      'st Security Info=False;'
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 568
+    Top = 112
+  end
+end

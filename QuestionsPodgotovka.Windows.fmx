@@ -1,0 +1,15 @@
+inherited Form2_Windows: TForm2_Windows
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Grid1: TGrid
+    Viewport.Width = 465.000000000000000000
+    Viewport.Height = 129.000000000000000000
+  end
+  inherited ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Artem\Desk' +
+      'top\Passwords.mdb;Persist Security Info=False'
+  end
+end

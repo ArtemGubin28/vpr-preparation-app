@@ -1,0 +1,84 @@
+object FormOtv: TFormOtv
+  Left = 0
+  Top = 0
+  ClientHeight = 684
+  ClientWidth = 1032
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Grid1: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 1032.000000000000000000
+    Size.Height = 684.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    RowCount = 0
+    Viewport.Width = 1028.000000000000000000
+    Viewport.Height = 659.000000000000000000
+  end
+  object Button1: TButton
+    Align = Horizontal
+    Position.Y = 656.000000000000000000
+    Size.Width = 1032.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Text = #1053#1072#1079#1072#1076
+    TextSettings.Trimming = None
+    OnClick = Button1Click
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'SELECT * FROM '#1042#1088#1077#1084#1077#1085#1085#1099#1077#1044#1072#1085#1085#1099#1077)
+    Left = 568
+    Top = 152
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 564
+    Top = 53
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = #1042#1086#1087#1088#1086#1089
+          TextWidth = 85
+        end
+        item
+          MemberName = #1055#1088#1072#1074#1080#1083#1100#1085#1099#1081#1054#1090#1074#1077#1090
+          TextWidth = 50
+        end
+        item
+          MemberName = #1042#1072#1096#1054#1090#1074#1077#1090
+          TextWidth = 50
+        end>
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = ADOQuery1
+    ScopeMappings = <>
+    Left = 568
+    Top = 200
+  end
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\'#1056#1072#1073#1086#1095#1080#1081' '#1089#1090#1086#1083'\'#160'\'#1056 +
+      #1072#1073#1086#1090#1072'\'#1042#1055#1056'\Win32\Debug\Passwords.mdb;Persist Security Info=False;'
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 568
+    Top = 112
+  end
+end

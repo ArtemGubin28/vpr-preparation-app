@@ -1,0 +1,59 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 3
+  inherited Z: TImage
+    MultiResBitmap.Height = 2486
+    MultiResBitmap.Width = 3503
+    MultiResBitmap.LoadSize = 2
+  end
+  inherited Rectangle1: TRectangle
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+    end
+    inherited Label2: TLabel
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+    end
+    inherited Label3: TLabel
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+    end
+    inherited Line2: TLine
+      inherited Edit2: TEdit
+        Position.X = -1.000000000000000000
+      end
+    end
+    inherited Line1: TLine
+      inherited Edit1: TEdit
+        Position.X = -1.000000000000000000
+      end
+    end
+    inherited RoundRect1: TRoundRect
+      inherited Label4: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RoundRect2: TRoundRect
+      inherited Label5: TLabel
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
+      end
+    end
+    inherited RoundRect3: TRoundRect
+      inherited Label6: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Circle1: TCircle
+      inherited Image2: TImage
+        MultiResBitmap.Height = 512
+        MultiResBitmap.Width = 512
+        MultiResBitmap.LoadSize = 2
+      end
+    end
+    inherited Label7: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Passwords.mdb;Persi' +
+      'st Security Info=False;'
+  end
+end
